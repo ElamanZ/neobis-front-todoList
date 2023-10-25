@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>todoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="main">
+    <div class="main__container">
+
+        <h1 class="main__title">What's up,
+            <span class="main__title edit" contenteditable="true">Elaman</span>
+        </h1>
+
+
+        <p class="main__description">CREATE A TODO</p>
+
+        <h3 class="main__todoText">What's on your todo list?</h3>
+        <input class="main__todoInput" placeholder="e.g. get a milk">
+
+        <h3 class="main__todoText">What's on your todo list?</h3>
+
+        <div class="radio-buttons">
+            <label class="">
+                <input type="radio" name="category" value="business">
+                <span class="radio-btn business"></span>
+                <div class="radio-title">Business</div>
+            </label>
+            <label class="">
+                <input type="radio" name="category" value="personal" checked>
+                <span class="radio-btn personal"></span>
+                <div class="radio-title">Personal</div>
+            </label>
+        </div>
+
+        <div class="main__btn">
+            <button class="btn-add-todo">Add todo</button>
+        </div>
+        <p class="main__todo-text">TODO LIST</p>
+        <div class="todo__list"></div>
+
+    </div>
+
+
+</main>
+</body>
+</html>
