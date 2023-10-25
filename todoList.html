@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>todoList</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
 <main class="main">
@@ -17,28 +18,42 @@
         <p class="main__description">CREATE A TODO</p>
 
         <h3 class="main__todoText">What's on your todo list?</h3>
-        <input class="main__todoInput" placeholder="e.g. get a milk">
-
+        <input type="text" class="main__todoInput" id="todo_input" placeholder="e.g. get a milk">
         <h3 class="main__todoText">What's on your todo list?</h3>
 
         <div class="radio-buttons">
-            <label class="">
-                <input type="radio" name="category" value="business">
+            <label class="radio-button">
+                <input type="radio" name="category" value="business" id="radio_btn_business">
                 <span class="radio-btn business"></span>
                 <div class="radio-title">Business</div>
             </label>
-            <label class="">
-                <input type="radio" name="category" value="personal" checked>
+            <label class="radio-button">
+                <input type="radio" name="category" value="personal" checked id="radio_btn_personal">
                 <span class="radio-btn personal"></span>
                 <div class="radio-title">Personal</div>
             </label>
         </div>
 
         <div class="main__btn">
-            <button class="btn-add-todo">Add todo</button>
+            <button class="btn-add-todo" id="add_todo_btn">Add todo</button>
         </div>
         <p class="main__todo-text">TODO LIST</p>
-        <div class="todo__list"></div>
+        <div class="todo__list" id="todoList">
+<!--            <li class="list-group-item">-->
+<!--                <div class="list-group-item-left">-->
+<!--                    <label class="todo-list-radio">-->
+<!--                        <input type="checkbox">-->
+<!--                        <span class="radio-btn personal"></span>-->
+<!--                    </label>-->
+<!--                    <span class="todo-task-text">Тут будет таск</span>-->
+<!--                </div>-->
+
+<!--                <span class="todo-buttons">-->
+<!--                    <button class="btn btn-edit-task">Edit</button>-->
+<!--                    <button class="btn btn-edit-delete">Delete</button>-->
+<!--                </span>-->
+<!--            </li>-->
+        </div>
 
     </div>
 

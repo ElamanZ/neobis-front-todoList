@@ -46,7 +46,7 @@
     justify-content: space-between;
     margin-top: 10px;
 }
-.radio-buttons label{
+.radio-button{
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -63,7 +63,8 @@
     margin-top: 7px;
 }
 
-input[type="radio"]{
+input[type="radio"],
+input[type="checkbox"]{
     display: none;
 }
 .radio-btn{
@@ -133,6 +134,68 @@ input:checked ~ .radio-btn::after{
 .main__todo-text {
     font-size: 20px;
 }
+
+.list-group-item {
+    width: 100%;
+    height: 70px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+
+.todo-list-radio {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-edit-task {
+    background-color: #CF318B;
+    color: white;
+    border: none;
+    width: 60px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn-edit-delete {
+    background-color: #e55113;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 45px;
+    font-size: 16px;
+}
+.todo-buttons {
+    background-color: transparent;
+}
+.todo-task-text {
+    font-size: 20px;
+    background-color: transparent;
+
+}
+.list-group-item-left {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+}
+
+
+
 
 
 
