@@ -115,7 +115,6 @@ input:checked ~ .radio-btn::after{
     border-radius: 10px;
     background: #3376EA;
     margin-top: 20px;
-    border: none;
     color: #FFF;
     cursor: pointer;
     font-size: 20px;
@@ -186,14 +185,18 @@ input:checked ~ .radio-btn::after{
 .todo-task-text {
     font-size: 20px;
     background-color: transparent;
-
+    border: none;
+    outline: none
 }
+
 .list-group-item-left {
     display: flex;
     background-color: transparent;
     align-items: center;
 }
-
+.task-done {
+    text-decoration: line-through;
+}
 
 
 
