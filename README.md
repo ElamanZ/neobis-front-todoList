@@ -1,5 +1,6 @@
 # ReadMe для проекта "todoList"
 
+##Ссылка: (https://elamanz.github.io/neobis-front-todoList/)
 ## Описание проекта
 
 Это веб-приложение TodoList, которое позволяет вам создавать и управлять своим списком задач.
@@ -52,3 +53,6 @@
    Gmail: z.elaman699@gmail.com
    
    GitHub: https://github.com/ElamanZ
+
+![image](https://github.com/ElamanZ/neobis-front-todoList/assets/110537470/93ec1ad8-6faa-4983-95ba-b6505567684b)
+
